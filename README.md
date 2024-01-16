@@ -25,16 +25,16 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### node环境配置
-1.官网下载node.js的msi文件，一路next至finish（途中调整安装存放地点）
-2.安装完成后，打开cmd，输入node -v 和npm -v查看版本号，确认安装成功
-3.在安装存放地点文件夹中增加node_cache（用于存放缓存数据）和node_global（用于存放全局安装的组件）文件夹
-4.输入以下命令 调整node.js中文件路径
-   npm config set prefix "{安装路径}\node_global"
-   npm config set cache "{安装路径}\node_cache"
-5.配置环境变量，"我的电脑"-右键-"属性"-"高级系统设置"-"高级"-"环境变量"
-  在系统变量中增加NODE_PAHT值为 "{安装路径}\node_modules"
-  在系统变量的PATH中增加 "{安装路径}\node_global"
-可参考以下：https://blog.csdn.net/SunBigBoy/article/details/129621613?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-129621613-blog-132109189.235^v40^pc_relevant_default_base&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+1. 官网下载node.js的msi文件，一路next至finish（途中调整安装存放地点）
+2. 安装完成后，打开cmd，输入node -v 和npm -v查看版本号，确认安装成功
+3. 在安装存放地点文件夹中增加node_cache（用于存放缓存数据）和node_global（用于存放全局安装的组件）文件夹
+4. 输入以下命令 调整node.js中文件路径  
+    npm config set prefix "{安装路径}\node_global"  
+    npm config set cache "{安装路径}\node_cache"  
+6. 配置环境变量，"我的电脑"-右键-"属性"-"高级系统设置"-"高级"-"环境变量"  
+    在系统变量中增加NODE_PAHT值为 "{安装路径}\node_modules"  
+    在系统变量的PATH中增加 "{安装路径}\node_global"
+可参考以下链接：https://blog.csdn.net/SunBigBoy/article/details/129621613?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-129621613-blog-132109189.235^v40^pc_relevant_default_base&spm=1001.2101.3001.4242.1&utm_relevant_index=3
 
 ### 项目结构
 - node_modules: 项目依赖的包所在目录
